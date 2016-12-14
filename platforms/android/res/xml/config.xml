@@ -24,5 +24,15 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
+    <splash density="land-mdpi" src="res/screen/Landscape-MDPI.svg" />
+    <splash density="land-hdpi" src="res/screen/Landscape-HDPI.svg" />
+    <splash density="land-xhdpi" src="res/screen/Landscape-XHDPI.svg" />
+    <splash density="land-xxhdpi" src="res/screen/Landscape-XXHDPI.svg" />
+    <splash density="land-xxxhdpi" src="res/screen/Landscape-XXXHDPI.svg" />
+    <splash density="port-mdpi" src="res/screen/Portrait-MDPI.svg" />
+    <splash density="port-hdpi" src="res/screen/Portrait-HDPI.svg" />
+    <splash density="port-xhdpi" src="res/screen/Portrait-XHDPI.svg" />
+    <splash density="port-xxhdpi" src="res/screen/Portrait-XXHDPI.svg" />
+    <splash density="port-xxxhdpi" src="res/screen/Portrait-XXXHDPI.svg" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

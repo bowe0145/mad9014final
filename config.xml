@@ -18,6 +18,17 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+            <splash src="res/screen/Landscape-MDPI.svg" density="land-mdpi"/>
+            <splash src="res/screen/Landscape-HDPI.svg" density="land-hdpi"/>
+            <splash src="res/screen/Landscape-XHDPI.svg" density="land-xhdpi"/>
+        <splash src="res/screen/Landscape-XXHDPI.svg" density="land-xxhdpi"/>
+        <splash src="res/screen/Landscape-XXXHDPI.svg" density="land-xxxhdpi"/>
+
+            <splash src="res/screen/Portrait-MDPI.svg" density="port-mdpi"/>
+            <splash src="res/screen/Portrait-HDPI.svg" density="port-hdpi"/>
+        <splash src="res/screen/Portrait-XHDPI.svg" density="port-xhdpi"/>
+        <splash src="res/screen/Portrait-XXHDPI.svg" density="port-xxhdpi"/>
+        <splash src="res/screen/Portrait-XXXHDPI.svg" density="port-xxxhdpi"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

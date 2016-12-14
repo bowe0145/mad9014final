@@ -1,0 +1,107 @@
+body {
+  background-color: #25383C;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+header {
+  text-align: center;
+}
+
+#content {
+  display: block;
+  background-color: #EFEFEF;
+  height: 100%;
+  color: #000;
+}
+
+#content table {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+thead, tbody {
+  margin: 0 auto;
+  display: block;
+}
+
+table.schedule {
+  text-align: center;
+  width: 100%;
+}
+
+table.schedule tr {
+  display: block;
+  margin: 10px auto;
+}
+table.schedule th {
+  width: 100%;
+  border: none;
+  display: inline-block;
+}
+table.schedule td {
+  display: inline-block;
+}
+table.schedule td:nth-child(1) {
+  width: 40%;
+  text-align: right;
+}
+table.schedule td:nth-child(2) {
+  width: 19%;
+}
+table.schedule td:nth-child(3) {
+  width: 40%;
+  text-align: left;
+}
+table.standings {
+  text-align: center;
+  width: 100%;
+}
+table.standings th, table.standings td {
+  width: 24%;
+    border: 1px solid #000;
+    display: inline-block;
+}
+table.standings tr {
+  width: 100%;
+  display: block;
+}
+
+#bottom-buttons {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+#bottom-buttons #btnStanding {
+  margin-top: 1rem;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #6B7E82;
+  border-radius: 5px;
+  width: 49%;
+}
+
+#bottom-buttons #btnSchedule {
+  margin-top: 1rem;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #6B7E82;
+  border-radius: 5px;
+  width: 49%;
+}
+
+@media screen and (max-width: 400px) {
+  table.standings th, table.standings td {
+    display: table-cell;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  table.schedule td {
+    display: table-cell;
+  }
+}
